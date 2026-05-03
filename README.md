@@ -46,7 +46,7 @@ A production-ready team task manager for managing projects, assigning tasks, and
 | `JWT_SECRET` | Secret for signing JWTs |
 | `NODE_ENV` | `development` or `production` |
 | `PORT` | API port (Railway provides `PORT`) |
-| `FRONTEND_URL` | Frontend origin URL for CORS |
+| `FRONTEND_URL` | Frontend origin URL for CORS (Railway frontend URL) |
 
 ### Frontend (`frontend/.env`)
 | Variable | Description |
