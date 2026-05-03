@@ -1,0 +1,10 @@
+[services.backend]
+root = "backend"
+buildCommand = "npm install && npm run prisma:generate && npm run prisma:migrate"
+startCommand = "npm run start"
+healthcheckPath = "/api/health"
+
+[services.frontend]
+root = "frontend"
+buildCommand = "npm install && npm run build"
+startCommand = "npm run start"
